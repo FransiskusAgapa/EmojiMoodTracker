@@ -1,5 +1,3 @@
----
-
 # Emoji Mood Tracker
 
 A simple and fun web app that lets you track your current mood with an emoji and background color. Built with HTML, CSS, and JavaScript.
