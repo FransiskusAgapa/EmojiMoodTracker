@@ -32,6 +32,11 @@ Or deploy it online using services like:
 * CSS
 * JavaScript (Vanilla)
 
+## Demo
+
+https://github.com/user-attachments/assets/e200d817-fbf7-4827-bec1-04c88ab5181a
+
+
 ## Ideas for Future Features
 
 * Custom mood input
