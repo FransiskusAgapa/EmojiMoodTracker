@@ -1,5 +1,3 @@
-Sure! Here's a clean, beginner-friendly `README.md` for your **Emoji Mood Tracker** project:
-
 ---
 
 # Emoji Mood Tracker
