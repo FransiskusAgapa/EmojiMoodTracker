@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Emoji Mood Tracker</title>
+    <link rel="stylesheet" href="/frontend/style.css">
+</head>
+    <body>
+
+        <h1>How Are You Feeling Today?</h1>
+
+        <div class="mood-buttons">
+            <button onclick="setMood('😊', 'Happy', '#FFEBEE')">Happy</button>
+            <button onclick="setMood('😢', 'Sad', '#BBDEFB')">Sad</button>
+            <button onclick="setMood('😠', 'Angry', '#FFCDD2')">Angry</button>
+            <button onclick="setMood('😌', 'Calm', '#C8E6C9')">Calm</button>
+            <button onclick="setMood('😍', 'Loved', '#F8BBD0')">Loved</button>
+            <button onclick="setMood('🤯', 'Stressed', '#E1BEE7')">Stressed</button>
+        </div>
+
+        <div class="display" id="moodDisplay">😶</div>
+
+        <div class="history">
+            <h3>Mood History</h3>
+            <ul id="moodHistory"></ul>
+        </div>
+
+    <script src="/frontend/script.js"></script>
+    </body>
+</html>
