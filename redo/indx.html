@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Mood Tracker</title>
+    <link rel="stylesheet" href="/redo/stylex.css">
+</head>
+    <body>
+        <!-- Header -->
+        <h1>How Are You Feeling Today ?</h1>
+
+        <!-- Mood Buttons  -->
+        <div class="mood-buttons">
+            <button onclick="setMood('😊','Happy','#ffebee')">Happy</button>  
+            <button onclick="setMood('😢','Sad','#bbdefb')">Sad</button> 
+            <button onclick="setMood('😠','Anger','#ffcdd2')">Angry</button>
+        </div>
+
+        <!-- Mood Display  -->
+        <div class="display" id="moodDisplay">
+            😶
+        </div>
+
+        <!-- Mood History  -->
+        <div class="history">
+            <h3>Mood History</h3>
+            <ul id="moodHistory"></ul>
+        </div>
+
+        <script src="/redo/scriptx.js"></script>
+    </body>
+</html>
